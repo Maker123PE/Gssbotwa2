@@ -4,24 +4,24 @@ const chalk = require('chalk');
 
 // Other
 global.link = 'https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S'
-global.linkGroup = 'https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp'
+global.linkGroup = 'https://whatsapp.com/channel/0029VaNZIN6Lo4haML4dm31B'
 
 global.apikey = 'bf2d2cf29b3edc604b447983';
-global.ownername = "𝑆𝛪𝐷 𝐵𝛨𝛥𝛪";
-global.owner = ['917050906659'];
-global.premium = ['917050906659'];
-global.packname = "𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢";
-global.author = "𝐆𝐒𝐒 𝚩𝚯𝚻𝐖𝚫";
+global.ownername = "【𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒 𝐁𝐎𝐓©™】";
+global.owner = ['51968961950'];
+global.premium = ['51968961950'];
+global.packname = "【𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒 𝐁𝐎𝐓©™】";
+global.author = "【𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒 𝐁𝐎𝐓©™】";
 global.sessionName = 'session';
-global.prefa = [".", "!", "/", "?"];
+global.prefa = ["#", "!", ".", "?"];
 global.typemenu = "v1"
 global.menuType = "2"
 global.autoswview = true
 global.autoread = false
 global.available = false
 global.autoTyping = false
-global.autoRecord = false
-global.autoreact = false
+global.autoRecord = true
+global.autoreact = true
 global.onlygroup = false
 global.onlypc = false
 global.welcome = true
