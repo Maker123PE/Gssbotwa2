@@ -2,33 +2,33 @@
   "name": "whatsapp-bot (GSS BOTWA V2.0)",
   "description": "Whatsapp bot.",
   "keywords": ["whatsapp bot"],
-  "repository": "https://github.com/gssbotwa/Gssbotwa2",
+  "repository": "https://github.com/Maker123PE/Gssbotwa2",
   "stack": "container",
   "env": {
     "AUTO_READ": {
       "description": "Enable auto read feature",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "true"
     },
     "ALWAYS_ONLINE": {
   "description": "Enable always online feature",
-  "required": false,
-  "value": ""
+  "required": true,
+  "value": "true"
 },
 "AUTO_TYPING": {
   "description": "Enable auto typing feature",
-  "required": false,
-  "value": ""
+  "required": true,
+  "value": "true"
 },
     "MONGO_DB": {
       "description": "your mongodb database url",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://Guru:Guru@guru.evhrcxv.mongodb.net/?retryWrites=true&w=majority"
     },
     "TYPEMENU": {
   "description": "choose menu type from 1 to 5",
-  "required": false,
-  "value": ""
+  "required": true,
+  "value": "1"
 },
 "ONLYGROUP": {
   "description": "True for bot work in only group otherwise false",
