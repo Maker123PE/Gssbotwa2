@@ -10,11 +10,11 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install
+RUN npm install && npm install -g pm2
 
 COPY . .
 
-CMD ["node", "."]
+CMD ["pm2 start", "index.js"]
  
  
  
